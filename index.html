@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sala do Sem Futuro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #c084fc;
+      margin-bottom: 2rem;
+      text-shadow: 0 0 10px #c084fc, 0 0 20px #a855f7;
+    }
+
+    table {
+      width: 100%;
+      max-width: 600px;
+      border-collapse: collapse;
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(160, 32, 240, 0.3);
+    }
+
+    th, td {
+      padding: 1rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2d2d2d;
+      color: #c084fc;
+      font-weight: 700;
+    }
+
+    tr:nth-child(even) {
+      background-color: #111;
+    }
+
+    tr:hover {
+      background-color: #292929;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .section-container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .donations, .about {
+      background: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 350px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+
+    .donations h2 {
+      color: #9fef9f;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .about h2 {
+      color: #84d1ff;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .donation-entry {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      background: #111;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .about p {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sala do Sem Futuro</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Serviço</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Prova Paulista</td>
+        <td>R$ 3,00</td>
+      </tr>
+      <tr>
+        <td>Tarefas</td>
+        <td>R$ 1,00</td>
+      </tr>
+      <tr>
+        <td>Redação</td>
+        <td>R$ 2,00</td>
+      </tr>
+      <tr>
+        <td>Speak</td>
+        <td>R$ 3,50</td>
+      </tr>
+      <tr>
+        <td>Alura</td>
+        <td>R$ 1,99</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-container">
+    <div class="donations">
+      <h2>❤️ Pagamentos Concluídos</h2>
+      <div class="donation-entry">
+        <strong>Teste</strong> - R$ 5000,00<br />
+        <small>Desenvolvimento</small>
+      </div>
+      <div class="donation-entry">
+        <strong>Teste</strong> - R$ 5000,00<br />
+        <small>Desenvolvimento</small>
+      </div>
+      <div class="donation-entry">
+        <strong>Teste</strong> - R$ 5000,00<br />
+        <small>Desenvolvimento</small>
+      </div>
+    </div>
+
+    <div class="about">
+      <h2>Sobre</h2>
+      <p>
+        Olá, bem-vindo ao site de vendas para fazermos suas coisas do cmsp! Aqui vocês vão poder tirar a melhor nota,
+        e representar sua escola e já também fazer a suas tarefas. Nós podemos fazer isso a caso você peça:
+        Redação, Prova Paulista, Speak, Alura, Tarefas.
+      </p>
+      <p>
+        O uso dos hacks que usamos são criado por nós, não usamos de outras pessoas por exemplo o hack do doritos
+        fazemos por o seu pedido, não iremos fazer nada de graça pelo motivo de recibo de dinheiro para nós ea equipe,
+        o motivo de tudo é para facilitar a vida de vocês, por causa de sufoco para fazer a plataforma.
+      </p>
+      <p>
+        Não também temos garantia que o item da prova paulista funcione pelo motivo de ser novo mas de resto
+        está tudo funcionando direitinho e sem erros.
+      </p>
+      <p><strong>Aviso Passado Por:</strong> &lt;\Treinei&gt;</p>
+    </div>
+  </div>
+
+  <div class="footer">Criado Por: Treinei</div>
+</body>
+</html>
